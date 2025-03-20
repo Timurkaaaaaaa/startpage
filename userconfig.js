@@ -63,7 +63,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-14.gif",
+      background_url: "src/img/banners/cbg-07.gif",
       categories: [
         {
           name: "development",
