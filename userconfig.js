@@ -17,25 +17,8 @@ const default_config = {
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/cbg-09.gif",
+      background_url: "src/img/banners/cbg-15.gif",
       categories: [
-        {
-          name: "bookmarks",
-          links: [
-            {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
-            },
-            {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
-          ],
-        },
         {
           name: "workspace",
           links: [
@@ -68,13 +51,19 @@ const default_config = {
               icon: "brand-youtube",
               icon_color: palette.red,
             },
+            {
+              name: "Twitch",
+              url: "https://www.twitch.tv/",
+              icon: "brand-twitch",
+              icon_color: palette.mauve,
+            },
           ],
         },
       ],
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-07.gif",
+      background_url: "src/img/banners/cbg-14.gif",
       categories: [
         {
           name: "development",
@@ -86,7 +75,7 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
+              name: "Habr",
               url: "https://qna.habr.com/",
               icon: "question-mark",
               icon_color: palette.blue,
